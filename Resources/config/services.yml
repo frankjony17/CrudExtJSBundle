@@ -1,0 +1,12 @@
+services:
+    crud_ext_js.validator:
+        class: CrudExtJSBundle\Services\Validators
+        arguments: ['@doctrine.orm.entity_manager']
+
+    crud_ext_js.generator:
+        class: CrudExtJSBundle\Services\Generator
+        arguments: ['@service_container']
+
+    crud_ext_js.util:
+        class: CrudExtJSBundle\Services\Util
+        arguments: ['@service_container', '@doctrine.orm.entity_manager']

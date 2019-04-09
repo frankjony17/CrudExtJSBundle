@@ -1,0 +1,10 @@
+xtype: 'textfield',
+                    fieldLabel: 'FIELDLABEL',
+                    emptyText: 'EMTYTEXT',
+                    name: 'NAME',
+                    /*maskRe: MASKRe,
+                    regex: REGEx,*/
+                    maxLength: MAXLENGTH,
+                    allowBlank: ALLOWBLANK,
+                    flex: 1,
+                    afterLabelTextTpl: REQUIRED

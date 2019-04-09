@@ -1,0 +1,9 @@
+xtype: 'timefield',
+                    fieldLabel: 'FIELDLABEL',
+                    name: 'NAME',
+                    minValue: '6:00 AM',
+                    maxValue: '8:00 PM',
+                    increment: 30,
+                    allowBlank: ALLOWBLANK,
+                    flex: 1,
+                    afterLabelTextTpl: REQUIRED

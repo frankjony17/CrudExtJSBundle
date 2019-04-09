@@ -1,0 +1,9 @@
+xtype: 'datefield',
+                    fieldLabel: 'FIELDLABEL',
+                    name: 'NAME',
+                    value: new Date(),
+                    format: 'Y-m-d',
+                    editable: false,
+                    allowBlank: ALLOWBLANK,
+                    flex: 1,
+                    afterLabelTextTpl: REQUIRED

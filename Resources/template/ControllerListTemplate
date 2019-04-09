@@ -1,0 +1,18 @@
+
+    /**
+     * List All values from ENTITY
+     *
+     * @Route("list")
+     */
+    public function listAction()
+    {
+        $data = array();
+
+        foreach($this->getDoctrine()->getManager()->getRepository('BUNDLE:ENTITY')->findAll() as $value ) {
+            $data[] = array(
+                LIST_ARRAY
+            );
+        }
+        return new Response('({"total":"'.count($data).'","data":'.json_encode($data).'})');
+    }
+}

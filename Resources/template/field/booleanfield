@@ -1,0 +1,15 @@
+xtype: 'combobox',
+                    fieldLabel: 'FIELDLABEL',
+                    emptyText: 'EMTYTEXT',
+                    name: 'NAME',
+                    store: Ext.create('Ext.data.ArrayStore', {
+                        fields: [ 'estado', 'value' ],
+                        data: [[ true, 'Final' ], [ false, 'Pendiente' ], [ true, 'Si' ], [ false, 'No' ], [ true, 'M' ], [ false, 'F' ], [ true, 'OK' ]]
+                    }),
+                    queryMode: 'local',
+                    displayField: 'value',
+                    valueField: 'estado',
+                    editable: false,
+                    flex: 1,
+                    allowBlank: ALLOWBLANK,
+                    afterLabelTextTpl: REQUIRED

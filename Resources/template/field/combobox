@@ -1,0 +1,12 @@
+xtype: 'combobox',
+                    fieldLabel: 'FIELDLABEL',
+                    emptyText: 'EMTYTEXT',
+                    name: 'NAME',
+                    store: Ext.create('STORESPASE'),
+                    queryMode: 'local',
+                    displayField: 'DISPLAYFIELD',
+                    editable: false,
+                    flex: 1,
+                    allowBlank: ALLOWBLANK,
+                    listConfig: {itemTpl:['<div data-qtip="{QTIP1}: QTIP2</div>']},
+                    afterLabelTextTpl: REQUIRED

@@ -1,0 +1,10 @@
+xtype: 'textareafield',
+                    fieldLabel: 'FIELDLABEL',
+                    name: 'NAME',
+                    grow: true,
+                    /*maskRe: MASKRe,
+                    regex: REGEx,*/
+                    maxLength: MAXLENGTH,
+                    allowBlank: ALLOWBLANK,
+                    flex: 1,
+                    afterLabelTextTpl: REQUIRED

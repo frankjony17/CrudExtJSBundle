@@ -1,0 +1,9 @@
+xtype: 'numberfield',
+                    fieldLabel: 'FIELDLABEL',
+                    name: 'NAME',
+                    value: 0,
+                    minValue: 0,
+                    maxValue: 99,
+                    flex: 1,
+                    allowBlank: ALLOWBLANK,
+                    afterLabelTextTpl: REQUIRED
